@@ -1,10 +1,10 @@
 ## AWS CLI Setup
 
 ### 1. Install AWS CLI
- - [title](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+ - [install aws cli: aws docs](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
 ### 2. Configure AWS CLI
- - [title](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+ - [configure aws cli: aws docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
  - use this command to do the configuration
  - `aws configure`
  - enter aws_access_key_id and aws_secret_access_key
