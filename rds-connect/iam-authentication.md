@@ -1,6 +1,6 @@
 ## Connect to Mysql RDS from EC2 using IAM authentication
 Resources: 
-- [Using RDS with IAMAuth: aws docs](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.html)
+- [Using RDS with IAMAuth: aws-docs](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.html)
 - [rds-iam-authentication: easytutorials](https://www.easytutorials.live/howto/aws-rds-database-iam-authentication-in-spring-boot)
 
 ### 1. Enable IAM Authentication in EC2
