@@ -1,6 +1,6 @@
 ## Connect to Mysql RDS from EC2 using IAM authentication
 Resources: 
-- [Using RDS with IAMAuth: amazon docs](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.html)
+- [Using RDS with IAMAuth: aws docs](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.IAMDBAuth.Connecting.html)
 - [rds-iam-authentication: easytutorials](https://www.easytutorials.live/howto/aws-rds-database-iam-authentication-in-spring-boot)
 
 ### 1. Enable IAM Authentication in EC2
@@ -55,5 +55,5 @@ Also add same policy to the user (or group user is part of).
  - `mysql --host=$RDSHOST --port=3306 --ssl-ca=/sample_dir/rds-combined-ca-bundle.pem --enable-cleartext-plugin --user=iamUser --password=$TOKEN`
 
 ### 9. Resources for trouble shooting
- - [connect to rds using iam auth](https://aws.amazon.com/blogs/database/use-iam-authentication-to-connect-with-sql-workbenchj-to-amazon-aurora-mysql-or-amazon-rds-for-mysql/)
- - [rds-my-access-denied](https://aws.amazon.com/premiumsupport/knowledge-center/rds-mysql-access-denied/)
+ - [connect to rds using iam auth: aws-docs](https://aws.amazon.com/blogs/database/use-iam-authentication-to-connect-with-sql-workbenchj-to-amazon-aurora-mysql-or-amazon-rds-for-mysql/)
+ - [rds-my-access-denied: aws-docs](https://aws.amazon.com/premiumsupport/knowledge-center/rds-mysql-access-denied/)
