@@ -3,6 +3,7 @@ package com.aws.demo.dynamodb.config;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
+import com.fasterxml.jackson.core.JsonFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,6 +17,11 @@ public class ApplicationConfiguration {
                 .build();
 
         return client;
+    }
+
+    @Bean
+    public JsonFactory jsonFactory() {
+        return new JsonFactory();
     }
 
 }
