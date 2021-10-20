@@ -1,11 +1,11 @@
 ### Interacting with Dynamo DB using APIs
 
 #### Dependency
-    `<dependency>
+`<dependency>
 	<groupId>com.amazonaws</groupId>
 	<artifactId>aws-java-sdk-dynamodb</artifactId>
 	<version>1.12.89</version>
-    </dependency>`
+</dependency>`
     
 #### Bean with connection details
 [https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.Summary.html](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Java.Summary.html)
