@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <springProfile name = "default | local">
+        <property name="LOG_FILE_LOCATION" value="./logs"/>
+    </springProfile>
+
+    <springProfile name = "dev | uat | prod">
+        <property name="LOG_FILE_LOCATION" value="/home/ec2-user/tinyurl/logs"/>
+    </springProfile>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{40} : %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>
+                %d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{40} : %msg%n
+            </pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_FILE_LOCATION}/log-%d{dd-MM-yyyy}.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>50MB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <root level="INFO">
+        <springProfile name = "default | local">
+            <appender-ref ref="CONSOLE"/>
+        </springProfile>
+
+        <springProfile name = "dev | uat | prod">
+            <appender-ref ref="ROLLING-FILE"/>
+        </springProfile>
+    </root>
+</configuration>
