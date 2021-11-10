@@ -29,10 +29,10 @@ Working Code build project:
 todo: will upload to this repo. currently present in aws code commit.
 
 Other helpful aws links:
-[https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html)
-[https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-run.html#how-to-run-prerequisites](https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-run.html#how-to-run-prerequisites)
-[https://docs.aws.amazon.com/codebuild/latest/userguide/planning.html](https://docs.aws.amazon.com/codebuild/latest/userguide/planning.html)
-[https://docs.aws.amazon.com/codebuild/latest/userguide/create-project-console.html](https://docs.aws.amazon.com/codebuild/latest/userguide/create-project-console.html)
-[Available-runtimes-codebuild](https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html)
-[build-spec-reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
-[code-build-access-related-setup](https://docs.aws.amazon.com/codebuild/latest/userguide/setting-up.html#setting-up-service-role)
+- [https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html)
+- [https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-run.html#how-to-run-prerequisites](https://docs.aws.amazon.com/codebuild/latest/userguide/how-to-run.html#how-to-run-prerequisites)
+- [https://docs.aws.amazon.com/codebuild/latest/userguide/planning.html](https://docs.aws.amazon.com/codebuild/latest/userguide/planning.html)
+- [https://docs.aws.amazon.com/codebuild/latest/userguide/create-project-console.html](https://docs.aws.amazon.com/codebuild/latest/userguide/create-project-console.html)
+- [Available-runtimes-codebuild](https://docs.aws.amazon.com/codebuild/latest/userguide/available-runtimes.html)
+- [build-spec-reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
+- [code-build-access-related-setup](https://docs.aws.amazon.com/codebuild/latest/userguide/setting-up.html#setting-up-service-role)
