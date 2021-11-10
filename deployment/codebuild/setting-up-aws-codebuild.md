@@ -26,7 +26,7 @@ Link used to setup code build project:
 [codebuild-angular-app](https://blog.shikisoft.com/bitbucket-aws-codebuild-angular/)
 
 Working Code build project:
-todo: will upload to this repo. currently present in aws code commit.
+[repo cloned from aws-codecommit-with-buildspec-appsec-sample](https://github.com/ArchitPandey/tinyurl-ui-with-codecommit-build-deploy)
 
 Other helpful aws links:
 - [https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html](https://docs.aws.amazon.com/codebuild/latest/userguide/welcome.html)
