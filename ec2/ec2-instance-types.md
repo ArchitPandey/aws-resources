@@ -13,3 +13,9 @@
 - Spot Instances: These instances can give upto 90% discount compared to on-demand instances. But we can lose this instance at any time if the max price is less than current spot price (hourly price of spot instance is called spot price, varies based on the availability zone spot instance runs in and type of instance). Spot instances are good for Batch jobs, Data analysis and image processing (not good for critical jobs and databases). Spot instances are also available in hourly increments upto six hours. Understanding more on spot instances here - [aws spot instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html).
 - Dedicated Hosts: This is a physical server with ec2 instance fully dedicated for your use. This type of ec2 instances can be used to meet compliance requirements (which requires the ec2 instance or application does not share host with any other customer's application) and use existing server bound licenses (where licenses are applicable for a machine, not OS). They are allocated for a three year period and are more expensive. Users are billed based on per host (instead of per instance).
 - Dedicated Instances: This is for instances running on the hardware that's dedicated to you. The hardware may run other instances in the same AWS account.
+
+#### Hotel Analogy
+- On demand: coming and staying in a resort whenever we like. We pay the full price.
+- Reserved: we plan ahead and if we plan to stay for a long time, we get good discounts.
+- Spot: hotel allows people to bid for the room. Highest bidder gets the room. Can get kicked out anytime, if hotel finds someone who can pay more. 
+- Dedicated Hosts: Book entire building of the resort. This is more expensive.
