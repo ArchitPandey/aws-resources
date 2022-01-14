@@ -8,4 +8,4 @@
 
 
 #### EBS Volume Snapshot
-- We can take backup of an EBS instance by taking a snapshot. This snapshot can then be used to spin up another EBS instance in a different availability zone.
+- We can take backup of an EBS instance by taking a snapshot. The snapshot is available within a region. It's not specific to an AZ. This snapshot can then be used to spin up another EBS instance in a different availability zone (within the same region). Or we can also copy the snapshot to another region (for data management or disaster recovery).
