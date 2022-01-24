@@ -16,6 +16,10 @@
 #### Mount Targets
 - when creating EFS we have to specify mount targets. each mount target contains availablity zone, security group. each mount target will provide an endpoint at which we can mount the efs system (which means ec2 instances from three availability zones can contact our file system).
 
+ec2 ---- efs mount target -----|
+                               |-------efs
+ec2 ---- efs mount target -----| 
+
 #### Connecting EC2-to-EFS
 - install amazon-efs-utils package to ec2
 - make dir efs in ec2
