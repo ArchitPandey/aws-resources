@@ -14,7 +14,7 @@ only gp2/gp3 or io1/io2 can be used as boot volumes.
     - gp3 has baseline of 3000 iops and throughput 125Mib/s
     - gp3 can increase iops to 16000 and throughput upto 1000Mib/s. iops are not linked to the amount of storage.
     - gp2 is smaller. can burst upto 3000 iops.
-    - gp2 iops is linked to size of volume. 3 iops per Gb.
+    - gp2 iops is linked to size of volume. max 16000 iops supported. 3 iops per Gb. so at 53334 GB we max out the iops, no iops increase after that. 
 
 - provisioned iops instances (between 4Gib -  are useful for critical business applications that need sustained iops performance. or applications that need more than 16000 iops. like database workloads. we can attach single io1 / io2 to multiple ec2 instances (only io1 / io2 type ebs volumes support this multi-attach functionality).
 
